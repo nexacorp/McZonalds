@@ -1,0 +1,13 @@
+[
+  {
+    "modid": "mczonalds",
+    "name": "McZonalds",
+    "description": "A fast food business roleplay mod based on McDonalds",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "authorList": [
+      "Galaxtone",
+      "zenith391"
+    ]
+  }
+]
