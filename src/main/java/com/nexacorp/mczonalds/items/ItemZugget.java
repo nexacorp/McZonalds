@@ -10,7 +10,7 @@ public class ItemZugget extends ItemFood {
 	private final boolean cooked;
 	
 	public ItemZugget(boolean cooked) {
-		super(3, 2.5f, false);
+		super(cooked ? 3 : 1, 2.5f, false);
 		this.cooked = cooked;
 		String name = cooked ? "zugget_cooked" : "zugget_raw";
 		setRegistryName(name);
