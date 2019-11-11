@@ -1,8 +1,8 @@
 package com.nexacorp.mczonalds;
 
-import net.minecraft.item.Item;
+import net.minecraft.block.Block;
 
 public class ModBlocks {
 
-	public static final Item[] BLOCKS = new Item[] {};
+	public static final Block[] BLOCKS = new Block[] {};
 }

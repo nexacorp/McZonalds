@@ -1,5 +1,6 @@
 package com.nexacorp.mczonalds;
 
+import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -18,6 +19,14 @@ public final class ModEventSubscriber {
 		
 		for (Item item : ModItems.ITEMS)
 			registry.register(item);
+	}
+	
+	@SubscribeEvent
+	public static void registerBlocks(RegistryEvent.Register<Block> event) {
+		IForgeRegistry<Block> registry = event.getRegistry();
+		
+		for (Block block : ModBlocks.BLOCKS)
+			registry.register(block);
 	}
 
 	@SubscribeEvent
